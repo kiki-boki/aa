@@ -1,0 +1,283 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* styler */
+
+body {
+	font: 16px/28px arial, sans-serif;
+	background-color: #eaeaea;
+	color: #333;
+}
+
+.container {
+	width: 800px;
+	background-color: white;
+	bottom: 300px;
+	margin: auto;
+	padding-top: 20px;
+	border: 3px solid black;
+	border-radius: 20px;
+}
+
+.container .gift {
+	display: inline-block;
+	margin-left: 70px;
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+	border-radius: 50px;
+	background-color: #333;
+}
+
+.container .judul {
+	display: inline-block;
+	float: left;
+	padding-top: 80px;
+	padding-left: 20px;
+	font-size: 40px;
+	text-shadow: 2px 2px 3px #434343;
+	font-family: "Monaco", monospace;
+	font-weight: 600;
+}
+
+.container .judul strong {
+	display: inline-block;
+	padding-left: 4px;
+	padding-bottom: 50px;
+	color: #52ffe0;
+	text-shadow: 2px 2px 3px #333;
+	font-size: 40px;
+	font-family: "Monaco", monospace;
+}
+
+.bocah {
+	background-color: white;
+	padding: 20px;
+}
+
+.bocah ul li {
+	display: inline-block;
+	float: right;
+	margin-top: 1px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.bocah .waw {
+	text-decoration: none;
+	color: white;
+	font-size: 13px;
+	background-color: #333;
+	font-family: Roboto,Noto,sans-serif;
+	margin-left: -10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	font-weight: 700;
+	padding-right: 30px;
+	box-shadow: none;
+	border: 1px solid #333;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.bocah .satu {
+	text-decoration: none;
+	color: white;
+	font-size: 13px;
+	background-color: #333;
+	font-family: Roboto,Noto,sans-serif;
+	margin-left: -10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	font-weight: 700;
+	padding-right: 30px;
+	box-shadow: none;
+	border: 1px solid #333;
+}
+
+.bocah .dua {
+	text-decoration: none;
+	font-size: 13px;
+	color: white;
+	background-color: #333;
+	font-family: Roboto,Noto,sans-serif;
+	margin-left: -10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	font-weight: 700;
+	padding-right: 30px;
+	box-shadow: none;
+	border: 1px solid #333;
+}
+
+.bocah .tiga {
+	text-decoration: none;
+	color: white;
+	font-size: 13px;
+	background-color: #333;
+	font-family: Roboto,Noto,sans-serif;
+	margin-left: -10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	font-weight: 700;
+	padding-right: 30px;
+	box-shadow: none;
+	border: 1px solid #333;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.bocah a:hover {
+	text-decoration: none;
+	color: #ff4cdf;
+	font-size: 13px;
+	font-family: Roboto,Noto,sans-serif;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	transition: all .4s ease-in-out;
+}
+
+.bocah a:active {
+	text-decoration: none;
+	font-size: 13px;
+	font-family: Roboto,Noto,sans-serif;
+	padding-top: 15px;
+	padding-bottom: 15spx;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: dimgray;
+}
+
+.foto .gambar {
+	width: 755px;
+	height: 400px;
+	border-top: 3px solid #ff0000;
+	border-bottom: 3px solid #ff0000;
+	border-right: 3px solid #ff0000;
+	border-left: 3px solid #ff0000;
+}
+
+.artikel {
+	padding: 20px;
+}
+
+.artikel h1 {
+	padding-bottom: 20px;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: normal;
+	font-variant: small-caps;
+}
+
+.kata {
+	padding: 10px;
+}
+
+.kata h2 {
+	font-size: 13px;
+	font-variant: normal;
+	font-style: normal;
+	letter-spacing: 1px;
+}
+
+.kata i {
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.ditulis {
+	padding-top: 1px;
+	padding-left: 1px;
+	padding-bottom: 40px;
+}
+
+.ditulis .lis {
+	font-size: 10px;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.ditulis .kiki {
+	font-size: 10px;
+	background-color: #fff;
+	font-variant: normal;
+	font-weight: normal;
+	font-family: "aril",sans-serif;
+	color: black;
+	border: none;
+}
+
+.ditulis .kiki:hover {
+	font-size: 10px;
+	background-color: #fff;
+	font-variant: normal;
+	border: none;
+	text-decoration: none;
+	font-variant: normal;
+	font-weight: normal;
+	transition: all .5s ease-in-out;
+	color: mediumblue;
+}
+
+.footer {
+	background-color: #eaeaea;
+	color: #fff;
+	border: 5px solid #333;
+	border-radius: 10px;
+	font-variant: normal;
+	font-weight: normal;
+}
+
+.footer .copy {
+	font-size: 14px;
+	text-align: center;
+	background-color: #333;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
